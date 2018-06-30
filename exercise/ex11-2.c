@@ -5,10 +5,17 @@
  * 2013-5-13
  *
  * 编写程序 hex2dd.c，它将十六进制参数转换为点分十进制串并打印出结果。例如：
- *
  * unix> cc ex11-2.c -o hex2dd
  * unix> ./hex2dd 0x8002c2f2
  * 128.2.194.242
+ * 
+ * 
+ * cc myfile.c -o myexe
+ * cc: c compiler
+ * Compile the file myfile.c and name the compiled executable output file myexe.
+ * 
+ * https://www.computerhope.com/unix/ucc.htm
+ * 
  */
 
 #include <limits.h>
